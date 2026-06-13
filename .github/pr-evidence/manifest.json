@@ -1,0 +1,9 @@
+{
+  "search": {
+    "before_image": ".github/pr-evidence/search-before-evidence.png",
+    "after_image": ".github/pr-evidence/search-after-evidence.png",
+    "flow_image": ".github/pr-evidence/search-flow-comparison.png",
+    "gif": ".github/pr-evidence/search-interaction.gif",
+    "built_actions": "{\n  \"home_search_action\": \"/search/\",\n  \"wiki_header_action\": null\n}"
+  }
+}
