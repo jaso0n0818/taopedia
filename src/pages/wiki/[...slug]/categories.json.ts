@@ -50,11 +50,11 @@ export const GET: APIRoute = async ({ props, site }) => {
       site: origin,
       slug,
       title,
-      url: `${origin}/wiki/${slug}/`,
+      url: `${origin}/wiki/${encodeURIComponent(slug)}/`,
       count: categories.length,
       categories: categories.map((name) => ({
         name,
-        url: `${origin}/wiki/category/${categorySlug(name)}/`,
+        url: `${origin}/wiki/category/${encodeURIComponent(categorySlug(name))}/`,
       })),
     },
     null,
